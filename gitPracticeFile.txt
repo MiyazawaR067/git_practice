@@ -3,3 +3,11 @@
 Gitの操作練習用ファイルです。
 0987654321
 Gitの練習
+
+git init : リポジトリの作成
+git status : 状態の確認
+git add ファイル名 : ステージング
+git add . : 全ての変更ファイルをステージング
+git commit -m "コミットメッセージ" : コミット
+git restore ファイル名 : ワークツリーの変更を取り消す
+git restore --starged ファイル名 : ステージからワークツリーに戻す
