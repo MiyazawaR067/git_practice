@@ -15,3 +15,10 @@ git diff : 差分の表示
 git branch ブランチ名 : ブランチの作成
 git switch ブランチ名 : ブランチの移動
 git merge ブランチ名 : 指定したブランチを現在いるブランチ(HEAD)に取り込む
+git remote add origin URL : orignという名前でURLで指定したリポジトリにアクセスできるようにする
+git push リモート名 ブランチ名 : リモートリポジトリに変更内容をアップ
+  (git push origin masterでリモートのoriginにローカルのmasterブランチの内容をプッシュする)
+git pull origin master: リモートリポジトリの内容をローカルリポジトリに取得し、ワークツリーにも反映する
+git fecth リモート名 : リモートリポジトリの内容をローカルリポジトリに取得
+  (pull = fetch + merge)(コンフリクトが発生しそうな時はfetch+mergeの方が良い？)
+
