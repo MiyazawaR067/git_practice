@@ -11,3 +11,7 @@ git add . : 全ての変更ファイルをステージング
 git commit -m "コミットメッセージ" : コミット
 git restore ファイル名 : ワークツリーの変更を取り消す
 git restore --starged ファイル名 : ステージからワークツリーに戻す
+git diff : 差分の表示
+git branch ブランチ名 : ブランチの作成
+git switch ブランチ名 : ブランチの移動
+git merge ブランチ名 : 指定したブランチを現在いるブランチ(HEAD)に取り込む
